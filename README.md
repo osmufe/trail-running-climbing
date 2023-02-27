@@ -1,7 +1,7 @@
 # Trail Running Climbing
 Suunto App Trail Running Climbing
 
-This app is designed to show the meters climbed on each Ascent/Descent. It shows the time Speed on the Ascent, the meters Climbed and the number of Attempts/Run plus the Climb Angle Ascent. Saves in the SA the number of times we completed Ascent/Descent in a training. Saves in SA Suunto Plus the speed that you spend in Ascent and for each Ascent/Descent plus the Climb Angle Ascent. Generates a lap every time you finish the route or Ascent/Descent ***(you can also force that you have finished the Ascent/Descent or route by pressing the lap button).***
+This app is designed to show the meters climbed on each Ascent/Descent. It shows the Cadence on the Ascent, the meters Climbed and the number of Attempts/Run plus the Climb Angle Ascent. Saves in the SA the number of times we completed Ascent/Descent in a training. Saves in SA Suunto Plus the Cadence that you spend in Ascent and for each Ascent/Descent plus the Climb Angle Ascent. Generates a lap every time you finish the route or Ascent/Descent ***(you can also force that you have finished the Ascent/Descent or route by pressing the lap button).***
 
 ### Screen Design:
 <img src="Small.png " width="150" height="150"> <img src="Medium.png " width="150" height="150"> <img src="Medium UI2.png " width="150" height="150"> <img src="Medium UI2 Plus.png " width="150" height="150"> <img src="Large.png " width="150" height="150">
