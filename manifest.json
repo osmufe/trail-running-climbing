@@ -23,8 +23,8 @@
       "type": "subscribe"
     },
     {
-      "name": "Cadence",
-      "source": "/Activity/Current/Cadence",
+      "name": "Speed",
+      "source": "/Activity/Current/Speed",
       "type": "subscribe"
     }
   ],
@@ -42,10 +42,10 @@
       "format": "Count_Threedigits"
     },
     {
-      "name": "climbCadenceAscent",
+      "name": "climbPaceAscent",
       "log": true,
-      "shownName": "Cadence Ascent",
-      "format": "Cadence_Fourdigits"     
+      "shownName": "Pace Ascent",
+      "format": "Pace_Fourdigits"     
     }
   ],
   "template": [

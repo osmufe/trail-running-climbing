@@ -41,7 +41,7 @@ function evaluate(input, output) {
      climbDistanceStartAttempAscent = input.Distance
     }else{
      // Save the Speed
-     output.climbCadenceAscent = input.Cadence
+     output.climbPaceAscent = input.Speed
      // Save the Distance in meters when ascensing because later generate the angle of each Attempt
      climbDistanceAttempAscent = input.Distance - climbDistanceStartAttempAscent;
      if (climbDistanceAttempAscent > output.climbAttemptAscent) {
@@ -72,7 +72,7 @@ function evaluate(input, output) {
  
 function onExerciseStart(input, output) {
   // Initializing Variables 
-  output.climbCadenceAscent = 0;
+  output.climbPaceAscent = 0;
   output.climbAttempts = 0;
   climbTotalAscent = 0;
   climbTotalDescent = 0;
@@ -91,7 +91,7 @@ function onLap(input, output) {
   climbDistanceAttempAscent = input.Distance - climbDistanceStartAttempAscent;
 
   // Initializing Variables for new Ascent and increase output.climbAttempts Variable
-  output.climbCadenceAscent = 0;
+  output.climbPaceAscent = 0;
   output.climbAttemptAscent = 0;
   climbAttemptDescent = 0;
   climbDistanceAttempAscent = 0;
