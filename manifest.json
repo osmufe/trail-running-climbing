@@ -1,0 +1,54 @@
+{
+  "name": "Trail Climbing",
+  "version": "1.0",
+  "author": "Oscar Muñoz Ferriz",
+  "description": "Attempts,Pace,Angle",
+  "type": "feature",
+  "usage": "workout",
+  "modificationTime": 1677531622, 
+  "in": [
+    {
+      "name": "AscentMeters",
+      "source": "/Fusion/Altitude/Ascent",
+      "type": "subscribe"
+    },
+    {
+      "name": "DescentMeters",
+      "source": "/Fusion/Altitude/Descent",
+      "type": "subscribe"
+    },
+    {
+      "name": "Distance",
+      "source": "/Activity/Current/Distance",
+      "type": "subscribe"
+    },
+    {
+      "name": "Cadence",
+      "source": "/Activity/Current/Cadence",
+      "type": "subscribe"
+    }
+  ],
+  "out": [
+    {
+      "name": "climbAttempts"
+    },
+    {
+      "name": "climbAttemptAscent"
+    },
+    {
+      "name": "climbAngleAscent",
+      "log": true,
+      "shownName": "Angle of Ascent",
+      "format": "Count_Threedigits"
+    },
+    {
+      "name": "climbCadenceAscent",
+      "log": true,
+      "shownName": "Cadence Ascent",
+      "format": "Cadence_Fourdigits"     
+    }
+  ],
+  "template": [
+    { "name": "t.html" }
+  ]
+}
